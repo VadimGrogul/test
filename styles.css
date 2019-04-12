@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    appearance: inherit;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.wrapper {
+    width: 385px;
+    margin: 200px auto;
+}
+
+.pricesSales {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.old-price {
+    color: #333;
+    text-decoration: line-through;
+}
+
+.new-price {
+    color: #cb2929;
+}
+
+.price-save {
+    font-size: 14px;
+    font-weight: 400;
+    color: #cb2929;
+}
+
+.by-more {
+    font-weight: 700;
+    color: #333;
+}
+
+.chobani {
+    font-size: 14px;
+    color: #cb2929;
+    font-weight: bold;
+}
+
+.view-selection {
+    margin-left: 10px;
+}
+
+.details {
+    color: #336600;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+}
+
+.details:after {
+    content: '\003E';
+    position: absolute;
+    top: 0;
+    right: -15px;
+
+}
+
+.check-coupon {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#checkCoupon {
+    margin-right: 5px;
+}
+
+.check-coupon .coupon-save {
+    color: #9702d7;
+    font-weight: bold;
+    vertical-align: super;
+    margin: 0 10px 0 5px;
+}
+
+form.customization {
+    width: 100%;
+    padding-bottom: 0;
+    background: #fafafa;
+    border: 1px solid #ccc;
+}
+
+.form-container {
+    padding: 20px;
+}
+
+form.customization .form__title {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.form__inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__inputs .form__selections {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__inputs .form__selections #cust1, #cust2, #cust3 {
+    width: 180px;
+    padding: 10px;
+}
+
+.form__inputs .form__selections #cust2 {
+    margin: 12px 0;
+}
+
+.change-cuts {
+    display: flex;
+    flex-direction: column;
+}
+
+.change-cuts input {
+    margin-bottom: 12px;
+}
+
+.form__count-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form__count-total .form-item__count {
+    width: 55px;
+    padding: 3px 0;
+    text-align: center;
+    background: #fff;
+    color: #333;
+    margin-left: 35px;
+    font-size: 16px;
+    box-shadow: inset 0 0 2px 1px #aaa;
+    font-weight: bold;
+    position: relative;
+
+}
+
+.form__count-total .form-item__count:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -35px;
+    width: 20px;
+    height: 4px;
+    background-image: url(./img/minus.png);
+}
+
+.form__count-total .form-item__count:after {
+    content: '';
+    position: absolute;
+    top: 15%;
+    right: -35px;
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/plus.png);
+}
+
+.form__total {
+    color: #333;
+    font-weight: bold;
+}
+
+.form__total span {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.form-add-card {
+    width: 100%;
+    padding: 20px 0;
+    background: #f2f2f2;
+    border-top: 1px dashed #aaa;
+    text-align: center;
+}
+
+.form-add-card .add-card-btn {
+    color: #fff;
+    background: #f17400;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    width: 160px;
+    padding: 7px 0;
+    font-family: Verdana, sans-serif;
+    border-radius: 4px;
+    box-shadow: inset 0px -1px 3px 0px #000;
+} 

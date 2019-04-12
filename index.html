@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="prices">
+            <div class="pricesSales"><span class="old-price">$44.99/cs</span> <span class="new-price">$38.80/cs</span>  <span class="price-save">Save 16%</span></div>
+            <p class="by-more">Buy More & Save!</p>
+            <div class="chobani">Any Chobani 2 for $4 <a href="#" class="view-selection details">View Selection</a></div>
+
+            <div class="check-coupon">
+                <input type="checkbox" id="checkCoupon">
+                <label for="checkCoupon">
+                    <img src="./img/coupon.png" alt="">
+                    <span class="coupon-save">Save $3.00</span>
+                </label>
+                <a href="#" class="details">Details</a>
+               
+            </div>
+        </div>
+
+        <form action="#" class="customization">
+            <div class="form-container">
+                <h3 class="form__title">Customize Your Item:</h3>
+            <div class="form__inputs">
+                <div class="form__selections">
+                    <select name="cust1" id="cust1">
+                        <option value="customization1">Customization 1</option>
+                        <option value="customization2">Customization 2</option>
+                        <option value="customization3">Customization 3</option>
+                    </select>
+                    <select name="cust2" id="cust2">
+                        <option value="customization1">Customization 1</option>
+                        <option value="customization2" selected="selected">Customization 2</option>
+                        <option value="customization3">Customization 3</option>
+                    </select>
+                    <select name="cust3" id="cust3">
+                        <option value="customization1">Customization 1</option>
+                        <option value="customization2">Customization 2</option>
+                        <option value="customization3" selected="selected">Customization 3</option>
+                    </select>
+                </div>
+
+                <div class="change-cuts">
+                    <label><input type="radio" name="checkCut">Single Cut</label>
+                    <label><input type="radio" name="checkCut">Double Cut</label>
+                </div>
+            </div>
+
+            <div class="form__count-total">
+                <div class="form-item__count">1</div>
+                <div class="form__total">Total: $38.80 <span>0.46/lb (est)</span></div>
+            </div>
+            </div>
+
+            <div class="form-add-card">
+                <button class="add-card-btn">Add To Card</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
